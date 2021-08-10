@@ -23,8 +23,6 @@ const Cards = () => {
                 label="Luxury"
                 path="/services"
               />
-            </ul>
-            <ul className="items__cards">
               <CardItem
                 src="../../assets/images/img-3.jpg"
                 text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
