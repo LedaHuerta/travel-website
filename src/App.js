@@ -1,9 +1,20 @@
-import logo from './logo.svg';
+import React, {Fragment} from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import './App.css';
+import Navbar from './components/UI/Navbar';
+
 
 function App() {
   return (
-    <h2>hello world</h2>
+    <Fragment>
+      <Router>
+        <Navbar/>
+        <Switch>
+          <Route path="/" exact />
+        </Switch>
+      </Router>
+    </Fragment>
   );
 }
 
