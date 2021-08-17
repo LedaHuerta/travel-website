@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
 import Home from './components/Homepage/Home';
+import Products from './components/Products/Products';
+import SignUp from './components/SignUp/SignUp';
+import Services from './components/Srvcs/Services';
+import Footer from './components/UI/Footer';
 import Navbar from './components/UI/Navbar';
 
 
@@ -14,7 +18,11 @@ function App() {
         <Navbar/>
         <Switch>
           <Route path="/" exact component={ Home } />
+          <Route path="/services" exact component={ Services } />
+          <Route path="/products" exact component={ Products } />
+          <Route path="/sign-up" exact component={ SignUp } />
         </Switch>
+        <Footer/>
       </Router>
     </Fragment>
   );
