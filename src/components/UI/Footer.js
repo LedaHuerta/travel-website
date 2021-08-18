@@ -30,40 +30,40 @@ const Footer = () => {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/travel-website/home">Testimonials</Link>
-            <Link to="/travel-website/home">Careers</Link>
-            <Link to="/travel-website/home">Investors</Link>
-            <Link to="/travel-website/home">Terms of Service</Link>
+            <Link to="/home">Testimonials</Link>
+            <Link to="/home">Careers</Link>
+            <Link to="/home">Investors</Link>
+            <Link to="/home">Terms of Service</Link>
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/travel-website/home">Contact</Link>
-            <Link to="/travel-website/home">Support</Link>
-            <Link to="/travel-website/home">Destinations</Link>
-            <Link to="/travel-website/home">Sponsorships</Link>
+            <Link to="/home">Contact</Link>
+            <Link to="/home">Support</Link>
+            <Link to="/home">Destinations</Link>
+            <Link to="/home">Sponsorships</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Videos</h2>
-            <Link to="/travel-website/home">Submit Video</Link>
-            <Link to="/travel-website/home">Ambassadors</Link>
-            <Link to="/travel-website/home">Agency</Link>
-            <Link to="/travel-website/home">Influencer</Link>
+            <Link to="/home">Submit Video</Link>
+            <Link to="/home">Ambassadors</Link>
+            <Link to="/home">Agency</Link>
+            <Link to="/home">Influencer</Link>
           </div>
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/travel-website/home">Instagram</Link>
-            <Link to="/travel-website/home">Facebook</Link>
-            <Link to="/travel-website/home">Youtube</Link>
-            <Link to="/travel-website/home">Twitter</Link>
+            <Link to="/home">Instagram</Link>
+            <Link to="/home">Facebook</Link>
+            <Link to="/home">Youtube</Link>
+            <Link to="/home">Twitter</Link>
           </div>
         </div>
       </div>
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/travel-website/home" className="social-logo">
+            <Link to="/home" className="social-logo">
               Kalam
               <i class="fab fa-typo3" />
             </Link>
@@ -72,7 +72,7 @@ const Footer = () => {
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
-              to="/travel-website/home"
+              to="/home"
               target="_blank"
               aria-label="Facebook"
             >
@@ -80,7 +80,7 @@ const Footer = () => {
             </Link>
             <Link
               class="social-icon-link instagram"
-              to="/travel-website/home"
+              to="/home"
               target="_blank"
               aria-label="Instagram"
             >
@@ -88,7 +88,7 @@ const Footer = () => {
             </Link>
             <Link
               class="social-icon-link youtube"
-              to="/travel-website/home"
+              to="/home"
               target="_blank"
               aria-label="Youtube"
             >
@@ -96,7 +96,7 @@ const Footer = () => {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/travel-website/home"
+              to="/home"
               target="_blank"
               aria-label="Twitter"
             >
@@ -104,7 +104,7 @@ const Footer = () => {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/travel-website/home"
+              to="/home"
               target="_blank"
               aria-label="LinkedIn"
             >

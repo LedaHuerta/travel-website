@@ -31,7 +31,7 @@ const Navbar = () => {
         <nav className="navbar">
           <div className="container__navbar">
             <Link
-              to="/travel-website/home"
+              to="/home"
               className="logo__navbar"
               onClick={closeMobileMenu}
             >
@@ -45,7 +45,7 @@ const Navbar = () => {
             >
               <li className="nav-item__navbar">
                 <Link
-                  to="/travel-website/home"
+                  to="/home"
                   className="nav-links__navbar"
                   onClick={closeMobileMenu}
                 >
@@ -54,7 +54,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item__navbar">
                 <Link
-                  to="/travel-website/services"
+                  to="/services"
                   className="nav-links__navbar"
                   onClick={closeMobileMenu}
                 >
@@ -63,7 +63,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item__navbar">
                 <Link
-                  to="/travel-website/products"
+                  to="/products"
                   className="nav-links__navbar"
                   onClick={closeMobileMenu}
                 >
@@ -72,7 +72,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item__navbar">
                 <Link
-                  to="/travel-website/sign-up"
+                  to="/sign-up"
                   className="nav-links-mobile__navbar"
                   onClick={closeMobileMenu}
                 >
