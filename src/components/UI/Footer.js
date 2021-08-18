@@ -64,15 +64,15 @@ const Footer = () => {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              TRVL
+              Kalam
               <i class="fab fa-typo3" />
             </Link>
           </div>
-          <small class="website-rights">TRVL © 2020</small>
+          <small class="website-rights">Dev Leda Huerta © 2021</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
-              to="/"
+              to="/home"
               target="_blank"
               aria-label="Facebook"
             >
@@ -80,7 +80,7 @@ const Footer = () => {
             </Link>
             <Link
               class="social-icon-link instagram"
-              to="/"
+              to="/home"
               target="_blank"
               aria-label="Instagram"
             >
@@ -88,7 +88,7 @@ const Footer = () => {
             </Link>
             <Link
               class="social-icon-link youtube"
-              to="/"
+              to="/home"
               target="_blank"
               aria-label="Youtube"
             >
@@ -96,7 +96,7 @@ const Footer = () => {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/"
+              to="/home"
               target="_blank"
               aria-label="Twitter"
             >
@@ -104,7 +104,7 @@ const Footer = () => {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/"
+              to="/home"
               target="_blank"
               aria-label="LinkedIn"
             >
