@@ -30,7 +30,11 @@ const Navbar = () => {
       <Fragment>
         <nav className="navbar">
           <div className="container__navbar">
-            <Link to="/home" className="logo__navbar" onClick={closeMobileMenu}>
+            <Link
+              to="/travel-website/home"
+              className="logo__navbar"
+              onClick={closeMobileMenu}
+            >
               Kalam <i className="fab fa-typo3"></i>
             </Link>
             <div className="menu-icon__navbar" onClick={handleMenu}>
@@ -41,7 +45,7 @@ const Navbar = () => {
             >
               <li className="nav-item__navbar">
                 <Link
-                  to="/home"
+                  to="/travel-website/home"
                   className="nav-links__navbar"
                   onClick={closeMobileMenu}
                 >
@@ -50,7 +54,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item__navbar">
                 <Link
-                  to="/services"
+                  to="/travel-website/services"
                   className="nav-links__navbar"
                   onClick={closeMobileMenu}
                 >
@@ -59,7 +63,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item__navbar">
                 <Link
-                  to="/products"
+                  to="/travel-website/products"
                   className="nav-links__navbar"
                   onClick={closeMobileMenu}
                 >
@@ -68,7 +72,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item__navbar">
                 <Link
-                  to="/sign-up"
+                  to="/travel-website/sign-up"
                   className="nav-links-mobile__navbar"
                   onClick={closeMobileMenu}
                 >
